@@ -1,11 +1,11 @@
 
 
-function SobreMi () {
+function Proyectos () {
     return (
         <div>
-            <h1>Sobre mi</h1>
+            <h1>Proyectos</h1>
         </div>
     )
 }
 
-export default SobreMi
+export default Proyectos

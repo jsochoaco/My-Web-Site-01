@@ -1,5 +1,5 @@
 import Navbar from "./components/00.NavBar/Navbar"
-import SobreMi from "./components/01.SobreMi/SobreMi"
+import Proyectos from "./components/01.SobreMi/SobreMi"
 import './App.css';
 import {Route, Routes} from "react-router-dom"
 import { useState } from "react";
@@ -12,7 +12,7 @@ function App() {
       <Routes >
         <Route
         path="/"
-        element= { <SobreMi/>}/>
+        element= { <Proyectos/>}/>
 
       </Routes>
     </div>
